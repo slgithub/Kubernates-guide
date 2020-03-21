@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    image: "cnacert/cnakey:1.0"
+    environment:
+      FIRST_NAME: "First Name"
+      LAST_NAME: "Last name "
